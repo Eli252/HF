@@ -1,0 +1,37 @@
+img{
+    width: 150px;
+    height: 150px;
+}
+h2 {
+    font-size: 1.5rem;
+}
+body{
+    background-color: aquamarine;
+    max-width: 900px;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-bottom: 25px;
+}
+div{/*I cleared the image, but I don't know how to place the price under it (on ourMenu page).*/
+    overflow: auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-bottom: 10px;
+}
+div img{
+    float: left;
+}
+ul{
+    list-style-image: url("43Images/jacks.jpg");
+}
+nav{
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 6px;
+}
