@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="restaurant.css" />
+    <style>
+        body{
+            background-color: white;
+        }
+        form{
+            width: 70%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: khaki;
+            margin-bottom: 15px;
+        }
+        input:not([type="submit"]), textarea{
+            display: block;
+            width: 275px;
+            margin-top: 6px;
+            margin-bottom: 12px;
+        }
+        textarea{
+            width: 400px;
+        }
+    </style>
+    <title>Rate Us</title>
+</head>
+<body>
+    <form action="feedback.php" method="post">
+        <label for="Name">Name:</label> <input name="Name" placeholder="Name" required/>
+        <label for="email">Email:</label> <input type="email" name="email" placeholder="email" required/>
+        <label for="date">Date of Your Visit:</label> <input type="date" name="date of visit"/>
+        <label for="rating">How was your visit?</label>
+        <select name="rating">
+            <option value="2">Excellent</option>
+            <option value="1">Good</option>
+            <option value="0">Okay</option>
+            <option value="-1">Not Enjoyable</option>
+            <option value="-2">Never Again</option>
+        </select>
+        <hr>
+        <label for="comments">Comments:</label><textarea name="comments" placeholder="Comments"></textarea>
+        <input type="submit" value="Submit"/>
+    </form>
+    <nav><a href= "ourMenu.html">MENU</a></nav>
+</body>
+</html>
