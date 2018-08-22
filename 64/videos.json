@@ -1,0 +1,10 @@
+[
+    {
+        "name": "HP",
+        "video": "src= media/HP.mp4"
+    },
+    {
+        "name": "Wildlife",
+        "video": "src= media/Wildlife.mp4"
+    }
+]
